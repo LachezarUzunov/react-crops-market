@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,900&family=Sofia+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* 
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+*/
+
 *,
 *::before,
 *::after {
@@ -16,4 +25,38 @@
   --beige: #dfe667;
   --spring-green: #7ea310;
   --dark-green: #213502;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+li {
+  font-size: 2.2rem;
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--astronaut-blue);
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a::after {
+  text-decoration: none;
+}
+
+a:checked {
+  text-decoration: none;
 }

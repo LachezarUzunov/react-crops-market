@@ -1,0 +1,15 @@
+.bg {
+  background-image: url("../assets/pulses-bg.jpg");
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.radient__bg {
+  min-height: 90vh;
+  background: rgb(33, 53, 2);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 53, 2, 0.9) 20%,
+    rgba(223, 230, 103, 0.6) 100%
+  );
+}

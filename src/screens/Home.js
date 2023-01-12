@@ -1,9 +1,16 @@
 import React from "react";
+import About from "./About";
+import Contacts from "./Contacts";
+import Header from "./Header";
+import Products from "./Products/Products";
 
 const Home = () => {
   return (
     <div>
-      <h2>Hello</h2>
+      <Header />
+      <Products />
+      <About />
+      <Contacts />
     </div>
   );
 };
