@@ -1,7 +1,7 @@
 .bg {
   background-image: url("../assets/pulses-bg.jpg");
   background-size: cover;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 .radient__bg {
@@ -13,3 +13,51 @@
     rgba(223, 230, 103, 0.6) 100%
   );
 }
+
+.heading__section {
+  width: 60%;
+}
+
+.store__heading {
+  padding-top: 12rem;
+  color: white;
+}
+
+.subheading {
+  border-top: 0.1rem solid white;
+}
+
+.subheading__text {
+  font-size: 2.2rem;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  padding-top: 2rem;
+  margin-bottom: 6rem;
+}
+
+.button__secondary {
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: 1.4rem 2.6rem;
+  border-radius: 1.5rem;
+  border: 0.3rem solid var(--spring-green);
+  transition: 400ms ease-in-out;
+}
+
+.button__secondary:hover {
+  background-color: var(--spring-green);
+  color: black;
+}
+
+/* 
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+*/

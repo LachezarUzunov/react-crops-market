@@ -46,6 +46,7 @@ li {
 a {
   text-decoration: none;
   color: var(--astronaut-blue);
+  font-family: "Sofia Sans", sans-serif;
 }
 
 a:hover {
@@ -59,4 +60,15 @@ a::after {
 
 a:checked {
   text-decoration: none;
+}
+
+h1 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 5.8rem;
+  letter-spacing: 0.2rem;
+}
+
+.card {
+  width: var(--container-width-lg);
+  margin: auto;
 }
