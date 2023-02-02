@@ -51,7 +51,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: white;
+  border-top: 0.2rem solid var(--astronaut-blue);
 }
 
 a::after {
@@ -75,7 +75,38 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-family: "Sofia Sans", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+}
+
 .card {
   width: var(--container-width-lg);
   margin: auto;
+}
+
+.btn__primary {
+  margin-top: 2rem;
+  font-size: 2rem;
+  background-color: transparent;
+  background-color: var(--dark-green);
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: 1.4rem 2.6rem;
+  border-radius: 1.5rem;
+  box-shadow: 0.4rem 0.4rem 0.8rem 0.2rem black;
+  /* border: 0.3rem solid var(--dark-green); */
+  transition: 200ms ease-in-out;
+}
+
+.btn__primary:hover {
+  transform: scale(1.05);
+}
+
+.btn__primary_left {
+  box-shadow: -0.4rem 0.4rem 0.8rem 0.2rem black;
 }

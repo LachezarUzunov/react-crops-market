@@ -53,6 +53,7 @@
 .button__secondary:hover {
   background-color: var(--spring-green);
   color: black;
+  border: 0.3rem solid var(--spring-green);
 }
 
 /* 
