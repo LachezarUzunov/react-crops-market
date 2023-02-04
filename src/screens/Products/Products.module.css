@@ -10,6 +10,7 @@
 
 .products__section {
   display: flex;
+  flex-direction: column;
 }
 
 /* .products__line {
@@ -20,13 +21,17 @@
 
 .categories {
   display: flex;
-  flex-direction: column;
+  width: 100%;
   background-color: var(--viking-blue);
 }
 
+.div__width {
+  width: 33.33%;
+}
+
 .single__category {
-  width: 14rem;
-  padding: 2rem 0rem;
+  width: 100%;
+  padding: 2rem 2rem;
   font-size: 2rem;
   cursor: pointer;
   background-color: var(--viking-blue);
