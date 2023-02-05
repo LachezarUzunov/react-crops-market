@@ -1,0 +1,72 @@
+.about__section {
+  margin-top: 6rem;
+  background: rgb(232, 237, 146);
+  background: linear-gradient(
+    90deg,
+    rgba(232, 237, 146, 1) 20%,
+    rgba(255, 255, 255, 1) 50%
+  );
+}
+
+.about__heading {
+  margin-top: 8rem;
+  border-bottom: 2px solid var(--astronaut-blue);
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.about__info {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 6rem;
+}
+
+.about__info_bg {
+  min-height: 60vh;
+}
+
+.about__info h2 {
+  text-align: left;
+}
+
+.about__info div {
+  width: 50%;
+}
+
+.about__image img {
+  max-width: 80rem;
+  height: fit-content;
+  padding-right: 10rem;
+}
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 900px) {
+  .about__section {
+    background: none;
+  }
+
+  .about__info {
+    flex-direction: column;
+    background: rgb(232, 237, 146);
+    background: linear-gradient(
+      90deg,
+      rgba(232, 237, 146, 1) 20%,
+      rgba(255, 255, 255, 1) 50%
+    );
+  }
+
+  .about__info div {
+    width: 100%;
+  }
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 450px) {
+  .about__info {
+    flex-direction: column;
+  }
+
+  .about__image img {
+    max-width: 50rem;
+  }
+}

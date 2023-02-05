@@ -86,6 +86,22 @@ p {
   line-height: 1.4;
 }
 
+input {
+  background-color: var(--astronaut-blue);
+  padding: 2rem;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.6rem;
+}
+
+textarea {
+  background-color: var(--astronaut-blue);
+  padding: 2rem;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.6rem;
+}
+
 .card {
   width: var(--container-width-lg);
   margin: auto;
@@ -113,4 +129,20 @@ p {
 
 .btn__primary_left {
   box-shadow: -0.4rem 0.4rem 0.8rem 0.2rem black;
+}
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) ============== */
+@media screen and (max-width: 900px) {
+  .card {
+    width: var(--container-width-md);
+    margin: auto;
+  }
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) ============== */
+@media screen and (max-width: 450px) {
+  .card {
+    width: var(--container-width-sm);
+    margin: auto;
+  }
 }

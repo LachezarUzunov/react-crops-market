@@ -1,0 +1,33 @@
+.sign__section {
+  background-color: var(--dark-green);
+  padding: 6rem 0;
+  color: white;
+}
+
+.sign__form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.sign__form button {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding: 1.4rem 2.6rem;
+  border-radius: 1.5rem;
+  border: 0.3rem solid var(--dark-green);
+  transition: 400ms ease-in-out;
+  cursor: pointer;
+  color: black;
+  background-color: var(--spring-green);
+  box-shadow: 0.4rem 0.4rem 0.8rem 0.2rem black;
+}
+
+.form__input {
+  background-color: var(--spring-green);
+  color: black;
+}
