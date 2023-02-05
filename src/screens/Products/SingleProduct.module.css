@@ -1,11 +1,29 @@
 .product {
-  width: 30rem;
+  width: 24rem;
 }
 
 .product__image {
-  width: 26rem;
-  height: 26rem;
+  width: 24rem;
+  height: 24rem;
   border-radius: 50%;
   box-shadow: 0px 0px 10px 2px var(--dark-green);
   transition: 500ms ease-in-out;
+}
+
+.product__image:hover {
+  width: 26rem;
+  height: 26rem;
+  cursor: pointer;
+  transform: rotate(60deg);
+}
+
+.product__info {
+  line-height: 1.4;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+}
+
+.product__package {
+  margin-top: 1rem;
+  font-size: 2rem;
 }

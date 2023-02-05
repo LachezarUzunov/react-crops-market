@@ -10,7 +10,11 @@ const SingleProduct = ({ product }) => {
         alt="product"
       ></img>
       <h2>{product.type}</h2>
-      <p>{product.package}</p>
+      <p className={classes.product__info}>{product.info}</p>
+      <div></div>
+      <h3 className={classes.product__package}>
+        Пакетаж: {product.package} кг.
+      </h3>
     </div>
   );
 };

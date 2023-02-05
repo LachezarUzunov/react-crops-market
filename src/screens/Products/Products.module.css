@@ -91,16 +91,10 @@
 
 .single__product__section {
   margin-top: 2rem;
+  justify-content: space-around;
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-}
-
-.products__line img:hover {
-  width: 30rem;
-  height: 30rem;
-  cursor: pointer;
-  transform: rotate(60deg);
 }
 
 .btns {
