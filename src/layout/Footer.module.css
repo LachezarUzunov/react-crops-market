@@ -1,4 +1,24 @@
 footer {
-  height: 15vh;
-  background-color: var(--dark-green);
+  height: 40vh;
+  background-color: #182702;
+  color: white;
+  text-align: center;
+}
+
+.footer__heading {
+  padding-top: 4rem;
+  font-size: 4rem;
+}
+
+.permalinks {
+}
+
+.permalinks li:hover {
+  border-bottom: 2px solid var(--spring-green);
+  border-top: none;
+  border-width: 50%;
+}
+
+.permalinks a:hover {
+  border: none;
 }
