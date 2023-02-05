@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated, config } from "react-spring";
 import classes from "./Header.module.css";
 
 const Header = () => {
   const fade = useSpring({ from: { opacity: 0 }, opacity: 1 });
-  // const slideIn = useSpring({
-  //   transform: { translate3d: "-100%, 0, 0" },
-  //   translate3d: "0, 0, 0",
-  // });
 
   return (
     <section className={classes.bg}>

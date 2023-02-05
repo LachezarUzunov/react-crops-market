@@ -26,7 +26,7 @@
 }
 
 .div__width {
-  width: 33.33%;
+  width: 25%;
 }
 
 .single__category {
@@ -54,6 +54,10 @@
   );
   border-radius: 2rem;
   padding: 4rem 4rem;
+}
+
+.category__info {
+  min-height: 14rem;
 }
 
 .category__second {
@@ -85,12 +89,11 @@
   padding: 4rem 4rem;
 }
 
-.products__line img {
-  width: 30rem;
-  height: 30rem;
-  border-radius: 50%;
-  box-shadow: 0px 0px 10px 2px var(--dark-green);
-  transition: 500ms ease-in-out;
+.single__product__section {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .products__line img:hover {

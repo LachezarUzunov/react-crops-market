@@ -1,0 +1,11 @@
+.product {
+  width: 30rem;
+}
+
+.product__image {
+  width: 26rem;
+  height: 26rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 2px var(--dark-green);
+  transition: 500ms ease-in-out;
+}
